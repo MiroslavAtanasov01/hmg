@@ -1,6 +1,6 @@
 # NBA
 
-Welcome to the NBA, a React-based front-end application designed with Material UI. This application interacts with the NBA API (https://free-nba.p.rapidapi.com)
+Welcome to the NBA, a React-based front-end application designed with Material UI. This application interacts with the NBA API (https://rapidapi.com/theapiguy/api/free-nba/)
 
 ## Setup and Installation
 
