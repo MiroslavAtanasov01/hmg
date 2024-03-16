@@ -20,9 +20,6 @@ const LoginPage: React.FC = () => {
   const handleLogin = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
     const storedUsers = JSON.parse(localStorage.getItem("users") || "[]");
-    if (!storedUsers) {
-      return alert("Invalid email or password.");
-    }
     const matchedUser = storedUsers?.find(
       (user: User) => user.email === email && user.password === password
     );

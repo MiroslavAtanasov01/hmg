@@ -10,10 +10,7 @@ export type TFavorites = {
   resource: ResourcesType;
 };
 
-export interface DFavorites {
-  id: string;
-  realId: string | number;
-  name: string;
+export interface DFavorites extends TFavorites {
   resource: ResourcesType;
 }
 
