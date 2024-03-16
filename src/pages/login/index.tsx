@@ -17,6 +17,8 @@ const LoginPage: React.FC = () => {
   const navigate = useNavigate();
   const isDisabled = email === "" || password === "";
 
+  //test2
+
   const handleLogin = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
     const storedUsers = JSON.parse(localStorage.getItem("users") || "[]");
