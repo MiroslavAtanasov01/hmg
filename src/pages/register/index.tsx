@@ -18,6 +18,8 @@ import {
 
 interface RegisterPageProps {}
 
+//test rabase
+
 const RegisterPage: React.FC<RegisterPageProps> = () => {
   const { setUser } = useUser();
   const navigate = useNavigate();
